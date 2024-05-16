@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,16 @@
     --cor-tres: #57C0FDff;
     --cor-quatro: #F6F6F5ff;
     --cor-cinco: rgb(0, 0, 0);
+    --texto-corpo: "Raleway", sans-serif;
+    --texto-titulo: "Sedan SC", serif;
 }
 
 body{
     background: #3b3854;
     color: whitesmoke;
+    font-family: var(--texto-corpo);
+}
+
+.titulo-principal {
+    font-family: var(--texto-titulo);
 }
