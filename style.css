@@ -39,3 +39,36 @@ body{
     color: var(--cor-cinco);
     margin-right: 24px;
 }
+
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/neve2.gif);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    margin: 24px 12px;    
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 32px;
+    color: var(--cor-dois);
+    margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+   font-size: 24px;
+   margin: 24px 30% 24px 0; 
+}
+
+.principal-capa__imagem{
+    border-radius: 5%;
+}
