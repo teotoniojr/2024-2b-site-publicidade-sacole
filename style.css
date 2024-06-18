@@ -72,3 +72,18 @@ body{
 .principal-capa__imagem{
     border-radius: 5%;
 }
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.principal-capa__botao{
+    background-color: var(--cor-um);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2m;
+    color: var(--cor-quatro);
+    font-weight: bold;
+    text-decoration: none;
+}
