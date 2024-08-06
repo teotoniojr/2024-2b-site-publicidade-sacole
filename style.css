@@ -86,4 +86,82 @@ body{
     color: var(--cor-quatro);
     font-weight: bold;
     text-decoration: none;
+} 
+.propaganda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 7em;
+}
+
+.propaganda__imagem{
+    margin-left: 20%;
+    width: 50%;
+}
+
+.propaganda__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 48px;
+    color: var(--cor-quatro);
+    margin-bottom: 1em;
+}
+
+.propaganda__botao{
+    margin-top: 1em;
+}
+
+.propaganda02{
+    display: flex;
+    flex-direction: column;
+}
+
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulos{
+    font-family: var(--texto-titulo);
+    font-size: 48px;
+    color: var(--cor-quatro);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.lista__item{
+    font-size: 24px;
+    color: var(--cor-dois); 
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-dois);
+    margin-left: 1em;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cor-dois);
+    font-size: 14px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo{
+    border-radius: 100%;
+    width: 10%;
 }
