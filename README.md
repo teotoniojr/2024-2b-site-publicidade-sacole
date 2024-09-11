@@ -1,2 +1,2 @@
-# 2024-2b-site-publicidade-sacole
-Exercício em HTML e CSS
+# 2024-2DS-site-publicidade
+Trabalhando conceitos de HTML e CSS
